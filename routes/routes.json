@@ -1,0 +1,18 @@
+[
+  {
+    "method": "get",
+    "url": "/",
+    "controller": "HomeController::Index"
+  },
+
+  {
+    "method": "get",
+    "url": "/informacao/:id",
+    "controller": "InformacaoController::Index"
+  },
+  {
+    "method": "get",
+    "url": "/error",
+    "controller": "HomeController::error"
+  }
+]
